@@ -1,4 +1,4 @@
-input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"], select {
+input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"],input[type="date"], select {
     font-family: unset;
     border: 1px solid #202020;
     background: #333;
@@ -111,4 +111,9 @@ input[type~="search"][name~="query"]:hover {
 .comment {
     padding: 5px 0 0 0;
     border-top: 1px #353535 solid;
+}
+.messagebox-content-header {
+    background: #191919;
+    margin: -20px;
+    padding: 10px;
 }
