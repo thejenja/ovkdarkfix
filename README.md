@@ -1,5 +1,7 @@
 # VK Night Fix
 Тема для OpenVK, исправляющая проблемы в VK Night с некоторыми нововедениями
+
+Доступно в Stylus: https://userstyles.world/style/2420/vk-night-fix
 ## Примечания
 - Включите микроблог перед тем как применить эту тему
 - Применяйте с темой VK Night
@@ -10,4 +12,4 @@
 - Выберите внизу 
   > Применить к: URL, начинающим­ся с https://openvk.su/
 - ???
-- PROFIT
+- PROFIT :trollface:
