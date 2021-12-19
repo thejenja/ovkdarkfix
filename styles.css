@@ -1,0 +1,87 @@
+input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"], select {
+    font-family: unset;
+    border: 1px solid #202020;
+    background: #333;
+    color: #eaeaea;
+}
+.postFeedWrapper {
+    background-color: #222222;
+    padding: 0;
+    display: block;
+    font-size: 11px;
+    border-bottom: 1px solid #313131;
+    color: #cacaca;
+    padding: 3px 8px;
+    border-top: #313131 solid 1px;
+}
+.menu_divider {
+    height: 1px;
+    background: #353535;
+    margin: 4px 0 2px;
+}
+.accent-box {
+    background-color: #333333;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #222222;
+}
+input[type~="search"][name~="query"] {
+    background: url(/assets/packages/static/openvk/img/search_icon.png) no-repeat 3px 4px !important;
+    width: 169px !important;
+    height: 24px !important;
+    background-color: #424242 !important;
+    background-position-y: 5px !important;
+    background-position-x: 6px !important;
+    padding-bottom: 5px !important;
+    padding-left: 24px !important;
+    color: #bbbbbb;
+}
+input[type~="search"][name~="query"]:hover {
+    background: url(/assets/packages/static/openvk/img/search_icon.png) no-repeat 3px 4px !important;
+    width: 169px !important;
+    height: 24px !important;
+    background-color:#404040 !important;
+    background-position-y: 5px !important;
+    background-position-x: 6px !important;
+    padding-bottom: 5px !important;
+    padding-left: 24px !important;
+    color: #bbbbbb;
+}
+.ovk-video > .preview {
+	width: 170px;
+	height: auto;
+	border: 0px;
+	align-content: center;
+	display: flex;
+	padding: 1px;
+}
+.notes_titles small {
+	color: #b1b1b1;
+    font-weight: normal;
+    display: block;
+    font-size: 9px;
+}
+.commentsTextFieldWrap {
+    padding: 0 7px;
+    background-color: #222 !important;
+    border: 1px solid #222 !important;
+    border-left: 0;
+    border-right: 0;
+}
+.post-share-button, .post-like-button {
+    display: flex;
+    padding: 2px;
+    border-radius: 2px;
+    transition-duration: 0.2s;
+}
+
+.post-share-button:hover, .post-like-button:hover {
+    background-color: rgb(25 25 25)
+}
+.post-divider {
+    border-bottom: 1px #353535 solid;
+}
+.comment {
+    padding: 5px 0 0 0;
+    border-top: 1px #353535 solid;
+}
