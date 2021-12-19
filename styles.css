@@ -74,7 +74,17 @@ input[type~="search"][name~="query"]:hover {
     border-radius: 2px;
     transition-duration: 0.2s;
 }
-
+.expand_button {
+    background-color: #222;
+    width: 100%;
+    display: inline-block;;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+}
+.expand_button:hover {
+    background-color: #333333;
+}
 .post-share-button:hover, .post-like-button:hover {
     background-color: rgb(25 25 25)
 }
