@@ -15,6 +15,12 @@ input[type="text"],input[type="password"],input[type~="text"],input[type~="passw
     background-position-x: 4px;
     background-position-y: 4px;
 }
+.header_search_inputbt {
+    padding: 10px;
+    border-top: 1px solid #404040;
+    display: flex;
+    margin-bottom: 0;
+}
 .postFeedWrapper {
     background-color: #222222;
     padding: 0;
