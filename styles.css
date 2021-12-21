@@ -124,3 +124,6 @@ input[type~="search"][name~="query"]:hover {
     margin-left: 1px;
     border-bottom: 1px solid #242424;
 }
+.gift_sel:hover {
+    background-color: #444444;
+}
