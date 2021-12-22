@@ -127,3 +127,7 @@ input[type~="search"][name~="query"]:hover {
 .gift_sel:hover {
     background-color: #444444;
 }
+.topic-list-item {
+    border-bottom: #353535 solid 1px;
+    padding: 4px;
+}
