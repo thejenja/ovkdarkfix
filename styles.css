@@ -131,3 +131,12 @@ input[type~="search"][name~="query"]:hover {
     border-bottom: #353535 solid 1px;
     padding: 4px;
 }
+#tracy-debug{
+    display: none !important;
+}
+.navigation>div {
+    height: auto;
+    background: #191919 !important;
+    margin: 4px 0 2px;
+    width: 133px;
+}
