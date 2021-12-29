@@ -134,9 +134,3 @@ input[type~="search"][name~="query"]:hover {
 #tracy-debug{
     display: none !important;
 }
-.navigation>div {
-    height: auto;
-    background: #191919 !important;
-    margin: 4px 0 2px;
-    width: 133px;
-}
