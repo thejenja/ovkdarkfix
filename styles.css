@@ -134,3 +134,6 @@ input[type~="search"][name~="query"]:hover {
 #tracy-debug{
     display: none !important;
 }
+.page_content>.text{
+    border-bottom: #353535 solid 1px !important;
+}
