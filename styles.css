@@ -1,4 +1,4 @@
-input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"],input[type="date"], select {
+input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"],input[type="date"], select, input[name="name"] {
     font-family: unset;
     border: 1px solid #202020;
     background: #333;
@@ -136,4 +136,7 @@ input[type~="search"][name~="query"]:hover {
 }
 .page_content>.text{
     border-bottom: #353535 solid 1px !important;
+}
+.knowledgeBaseArticle {
+    margin-top: 0px;
 }
