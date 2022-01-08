@@ -153,3 +153,21 @@ input[type~="search"][name~="query"]:hover {
     color: #fff;
     border-radius: 4px;
 }*/
+.album-photo img {
+    width: unset;
+    max-height: 120px !important;
+    max-width: 83%;
+    vertical-align: top;
+    border: 0px;
+    padding: 8px;
+    background-color: #222;
+}
+.album-photo {
+    position: relative;
+    background-color: #222;
+    margin: 5pt;
+    width: calc(33% - 10pt);
+    height: auto;
+    text-align: center;
+    vertical-align: text-top;
+}
