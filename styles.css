@@ -1,12 +1,10 @@
-input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"],input[type="date"], select, input[name="name"] {
-    font-family: unset;
+input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"], input[type="date"], input#file-upload-button[type="file"],select,input[name="name"] {
     border: 1px solid #202020;
     background: #333;
     color: #eaeaea;
 }
 .header_search_input {
     border: 1px solid #202020;
-    padding: 3px;
     padding-left: 19px;
     font-family: tahoma, verdana, arial, sans-serif;
     background: #333 url('/assets/packages/static/openvk/img/search_icon.png') no-repeat;
@@ -14,185 +12,92 @@ input[type="text"],input[type="password"],input[type~="text"],input[type~="passw
     background-position-y: 4px;
 }
 .header_search_inputbt {
-    padding: 10px;
     border-top: 1px solid #404040;
-    display: flex;
-    margin-bottom: 0;
 }
 .postFeedWrapper {
     background-color: #222222;
-    padding: 0;
-    display: block;
-    font-size: 11px;
     border-bottom: 1px solid #313131;
     color: #cacaca;
-    padding: 3px 8px;
     border-top: #313131 solid 1px;
 }
 .menu_divider {
-    height: 1px;
     background: #353535;
-    margin: 4px 0 2px;
 }
 .accent-box {
     background-color: #333333;
-    padding: 10px;
-    margin: 5px;
     border: 1px solid #222222;
 }
 input[type~="search"][name~="query"] {
     background: url(/assets/packages/static/openvk/img/search_icon.png) no-repeat 3px 4px !important;
-    width: 169px !important;
     height: 24px !important;
     background-color: #424242 !important;
     background-position-y: 5px !important;
     background-position-x: 6px !important;
-    padding-bottom: 5px !important;
     padding-left: 24px !important;
     color: #bbbbbb;
 }
 input[type~="search"][name~="query"]:hover {
     background: url(/assets/packages/static/openvk/img/search_icon.png) no-repeat 3px 4px !important;
-    width: 169px !important;
     height: 24px !important;
     background-color:#404040 !important;
     background-position-y: 5px !important;
     background-position-x: 6px !important;
-    padding-bottom: 5px !important;
     padding-left: 24px !important;
     color: #bbbbbb;
 }
 .ovk-video > .preview {
-	width: 170px;
 	height: auto;
 	border: 0px;
-	align-content: center;
-	display: flex;
-	padding: 1px;
 }
 .notes_titles small {
 	color: #b1b1b1;
-    font-weight: normal;
-    display: block;
-    font-size: 9px;
 }
 .commentsTextFieldWrap {
-    padding: 0 7px;
     background-color: #222 !important;
     border: 1px solid #222 !important;
-    border-left: 0;
-    border-right: 0;
 }
-.expand_button {
-    background-color: #222;
-    width: 100%;
-    display: inline-block;;
-    height: 30px;
-    line-height: 28px;
-    text-align: center;
-}
-.expand_button:hover {
-    background-color: #333333;
-}
-.post-share-button:hover, .post-like-button:hover {
-    background-color: rgb(25 25 25)
-}
-.post-divider {
-    border-bottom: 1px #353535 solid;
-}
-.comment {
-    padding: 5px 0 0 0;
-    border-top: 1px #353535 solid;
-}
-.messagebox-content-header {
-    background: #191919;
-    margin: -20px;
-    padding: 10px;
-}
+.expand_button {background-color: #222;}
+.expand_button:hover {background-color: #333333;}
+.post-share-button:hover, .post-like-button:hover {background-color: rgb(25 25 25)}
+.post-divider {border-bottom: 1px #353535 solid;}
+.comment {border-top: 1px #353535 solid;}
+.messagebox-content-header {background: #191919;}
 .messenger-app {
-    width: 628px;
     border-right: 1px solid #191919;
     border-left: 1px solid #191919;
-    margin-left: 1px;
     border-bottom: 1px solid #242424;
 }
-.gift_sel:hover {
-    background-color: #444444;
-}
-.topic-list-item {
-    border-bottom: #353535 solid 1px;
-    padding: 4px;
-}
-#tracy-debug{
-    display: none !important;
-}
-.page_content>.text{
-    border-bottom: #353535 solid 1px !important;
-}
-.knowledgeBaseArticle {
-    margin-top: 0px;
-}
-.content_list .cl_element .cl_name .cl_lname {
-    display: none;
-}
-.left_small_block>br{
-    display: none;
-}
-.profile-hints a {
-    margin-bottom: 15px;
-}
-.completeness-gauge-gold {
-    border-top: 0px solid #b9b597;
-}
-/*#profile_link, .profile_link {
+.gift_sel:hover {background-color: #444444;}
+.topic-list-item {border-bottom: #353535 solid 1px;}
+#tracy-debug{display: none !important;}
+.page_content>.text{border-bottom: #353535 solid 1px !important;}
+.knowledgeBaseArticle {margin-top: 0px;}
+.content_list .cl_element .cl_name .cl_lname {display: none;}
+.left_small_block>br{display: none;}
+.profile-hints a {margin-bottom: 15px;}
+.completeness-gauge-gold {border-top: 0px solid #b9b597;}
+/*.profile_link, #profile_link {
     padding: 7px 16px 8px;
     margin-bottom: 10px;
     text-align: center;
-    background: 0 0;
+    background: 0;
     background-color: #424242;
     color: #fff;
     border-radius: 4px;
 }*/
 .album-photo img {
-    width: unset;
     max-height: 120px !important;
-    max-width: 83%;
-    vertical-align: top;
     border: 0px;
-    padding: 8px;
     background-color: #222;
 }
 .album-photo {
-    position: relative;
     background-color: #222;
-    margin: 5pt;
-    width: calc(33% - 10pt);
     height: auto;
-    text-align: center;
-    vertical-align: text-top;
 }
-.small-textarea{
-    min-height: auto;
-}
-#basicInfo {
-    padding: 5px 0px 5px 8px;
-}
+.small-textarea{min-height: auto;}
+#basicInfo {padding: 5px 0px 5px 8px;}
 .page_content .navigation .link {
-    content: "Test";
     display: inline-block;
     padding: 20px 15px 20px 15px;
-    text-decoration: none;
-    border-top: 0px;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
-    font-size: 11px;
-    text-align: left;
-    cursor: pointer;
-    background: none;
-    margin-bottom: 1px;
 }
-.page_content .navigation .link:hover {
-    background-color: #353535;
-    border-top: 0px;
-}
+.page_content .navigation .link:hover {background-color: #353535;}
