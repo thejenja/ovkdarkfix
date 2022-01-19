@@ -96,8 +96,5 @@ input[type~="search"][name~="query"]:hover {
 }
 .small-textarea{min-height: auto;}
 #basicInfo {padding: 5px 0px 5px 8px;}
-.page_content .navigation .link {
-    display: inline-block;
-    padding: 20px 15px 20px 15px;
-}
-.page_content .navigation .link:hover {background-color: #353535;}
+.navigation-lang .link_new { border-top: 0px; color: #eaeaea;}
+.navigation-lang .link_new:hover {background-color: #353535; border-top: 0px;}
