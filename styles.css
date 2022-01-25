@@ -98,3 +98,9 @@ input[type~="search"][name~="query"]:hover {
 #basicInfo {padding: 5px 0px 5px 8px;}
 .navigation-lang .link_new { border-top: 0px; color: #eaeaea;}
 .navigation-lang .link_new:hover {background-color: #353535; border-top: 0px;}
+input[type=checkbox] {
+    background-image: url(https://i.imgur.com/Ka7Vbcx.gif);
+}
+input[type=radio] {
+    background-image: url(https://i.imgur.com/W7DWjed.png);
+}
