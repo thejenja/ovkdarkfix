@@ -99,10 +99,15 @@ input[type~="search"][name~="query"]:hover {
 .navigation-lang .link_new { border-top: 0px; color: #eaeaea;}
 .navigation-lang .link_new:hover {background-color: #353535; border-top: 0px;}
 input[type=checkbox] {
-    background-image: url(https://i.imgur.com/Ka7Vbcx.gif);
+    background-image: url(https://raw.githubusercontent.com/thejenja/ovkdarkfix/main/res/checkbox.gif);
 }
 input[type=radio] {
     background-image: url(https://i.imgur.com/W7DWjed.png);
+}
+.button {
+    padding: 5px 7px 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 .note_header {
     background: #222222;
