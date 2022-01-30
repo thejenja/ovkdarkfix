@@ -104,3 +104,14 @@ input[type=checkbox] {
 input[type=radio] {
     background-image: url(https://i.imgur.com/W7DWjed.png);
 }
+.note_header {
+    background: #222222;
+    border-bottom: solid 1px #353535;
+    border-top: solid 1px #353535;
+}
+.note_footer {
+    border-top: 1px solid #353535;
+}
+div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{
+    border-top: 1px solid #353535 !important;
+}
