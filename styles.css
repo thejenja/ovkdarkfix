@@ -120,3 +120,12 @@ input[type=radio] {
 div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{
     border-top: 1px solid #353535 !important;
 }
+#wallAttachmentMenu {
+    border: 1px solid #353535;
+}
+.groups_options {
+    border-top: #353535 solid 1px;
+}
+.summaryBar .summary {
+    color: #eaeaea;
+}
