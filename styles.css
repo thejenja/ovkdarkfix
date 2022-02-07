@@ -6,23 +6,18 @@ input[type="text"],input[type="password"],input[type~="text"],input[type~="passw
 .header_search_input {
     border: 1px solid #202020;
     padding-left: 19px;
-    font-family: tahoma, verdana, arial, sans-serif;
     background: #333 url('/assets/packages/static/openvk/img/search_icon.png') no-repeat;
     background-position-x: 4px;
     background-position-y: 4px;
 }
-.header_search_inputbt {
-    border-top: 1px solid #404040;
-}
+.header_search_inputbt {border-top: 1px solid #404040;}
 .postFeedWrapper {
     background-color: #222222;
     border-bottom: 1px solid #313131;
     color: #cacaca;
     border-top: #313131 solid 1px;
 }
-.menu_divider {
-    background: #353535;
-}
+.menu_divider {background: #353535;}
 .accent-box {
     background-color: #333333;
     border: 1px solid #222222;
@@ -34,7 +29,6 @@ input[type~="search"][name~="query"] {
     background-position-y: 5px !important;
     background-position-x: 6px !important;
     padding-left: 24px !important;
-    color: #bbbbbb;
 }
 input[type~="search"][name~="query"]:hover {
     background: url(/assets/packages/static/openvk/img/search_icon.png) no-repeat 3px 4px !important;
@@ -43,15 +37,12 @@ input[type~="search"][name~="query"]:hover {
     background-position-y: 5px !important;
     background-position-x: 6px !important;
     padding-left: 24px !important;
-    color: #bbbbbb;
 }
 .ovk-video > .preview {
 	height: auto;
 	border: 0px;
 }
-.notes_titles small {
-	color: #b1b1b1;
-}
+.notes_titles small {color: #b1b1b1;}
 .commentsTextFieldWrap {
     background-color: #222 !important;
     border: 1px solid #222 !important;
@@ -94,45 +85,24 @@ input[type~="search"][name~="query"]:hover {
     background-color: #222;
     height: auto;
 }
-.small-textarea{min-height: auto;}
+/*.small-textarea{min-height: auto;}*/
 #basicInfo {padding: 5px 0px 5px 8px;}
 .navigation-lang .link_new { border-top: 0px; color: #eaeaea;}
 .navigation-lang .link_new:hover {background-color: #353535; border-top: 0px;}
-input[type=checkbox] {
-    background-image: url(https://raw.githubusercontent.com/thejenja/ovkdarkfix/main/res/checkbox.gif);
-}
-input[type=radio] {
-    background-image: url(https://i.imgur.com/W7DWjed.png);
-}
-.button {
-    padding: 5px 7px 4px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
+input[type=checkbox] {background-image: url(https://github.com/thejenja/ovkdarkfix/blob/main/res/checkbox.gif?raw=true);}
+input[type=radio] {background-image: url(https://github.com/thejenja/ovkdarkfix/blob/main/res/radio.png?raw=true);}
 .note_header {
     background: #222222;
     border-bottom: solid 1px #353535;
     border-top: solid 1px #353535;
 }
-.note_footer {
-    border-top: 1px solid #353535;
-}
-div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{
-    border-top: 1px solid #353535 !important;
-}
-#wallAttachmentMenu {
-    border: 1px solid #353535;
-}
-.groups_options {
-    border-top: #353535 solid 1px;
-}
-.summaryBar .summary {
-    color: #eaeaea;
-}
+.note_footer {border-top: 1px solid #353535;}
+div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{border-top: 1px solid #353535 !important;}
+#wallAttachmentMenu {border: 1px solid #353535;}
+.groups_options {border-top: #353535 solid 1px;}
+.summaryBar .summary {color: #eaeaea;}
 .container_gray > center{
     background: #222222 !important;
     border: #222222 solid 1px !important;
 }
-.container_gray > center > span{
-    color: #eaeaea !important;
-}
+.container_gray > center > span{color: #eaeaea !important;}
