@@ -129,3 +129,10 @@ div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{
 .summaryBar .summary {
     color: #eaeaea;
 }
+.container_gray > center{
+    background: #222222 !important;
+    border: #222222 solid 1px !important;
+}
+.container_gray > center > span{
+    color: #eaeaea !important;
+}
