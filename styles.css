@@ -109,3 +109,7 @@ div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{border-top: 1px s
 .action_links > .profile_link, .action_links > .profile_link_form > .profile_link {
     text-transform: none;
 }
+#userContent blockquote {
+    background-color: #222222;
+    border-bottom: 5px solid #353535;
+}
