@@ -113,3 +113,10 @@ div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{border-top: 1px s
     background-color: #222222;
     border-bottom: 5px solid #353535;
 }
+.mb_tabs {
+    background-color: #222222;
+    border-bottom: #222222 solid 1px;
+}
+.summaryBar {
+    border-bottom: #353535 solid 1px;
+}
