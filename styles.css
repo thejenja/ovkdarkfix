@@ -101,11 +101,11 @@ div[style="margin: 6px 10px 10px;border-top: 1px solid #ddd;"]{border-top: 1px s
 #wallAttachmentMenu {border: 1px solid #353535;}
 .groups_options {border-top: #353535 solid 1px;}
 .summaryBar .summary {color: #eaeaea;}
-.container_gray > center{
+.container_gray > center, .page_content > center{
     background: #222222 !important;
     border: #222222 solid 1px !important;
 }
-.container_gray > center > span{color: #eaeaea !important;}
+.container_gray > center > span, .page_content > center > span{color: #eaeaea !important;}
 .action_links > .profile_link, .action_links > .profile_link_form > .profile_link {
     text-transform: none;
 }
