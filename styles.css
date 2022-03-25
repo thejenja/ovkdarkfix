@@ -1,5 +1,5 @@
 input[type="text"],input[type="password"],input[type~="text"],input[type~="password"],input[type="email"],input[type="phone"],input[type~="email"],input[type~="phone"], input[type="date"], input#file-upload-button[type="file"],select,input[name="name"] {
-    border: 1px solid #202020;
+    border: 1px solid #333;
     background: #333;
     color: #eaeaea;
 }
