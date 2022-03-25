@@ -129,3 +129,18 @@ body {
 .container_gray{
     background: #222222 !important;
 }
+.tabs {
+    width: 610px;
+}
+.post-upload {
+    margin-top: 11px;
+    margin-left: 3px;
+    color: #bbb;
+    display: none;
+}
+#profile_link, .profile_link {
+    width: 194px;
+}
+.post-author img.name-checkmark {
+    content: url(https://github.com/thejenja/ovkdarkfix/blob/main/res/4.png?raw=true);
+}
