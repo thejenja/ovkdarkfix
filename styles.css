@@ -141,6 +141,5 @@ body {
 #profile_link, .profile_link {
     width: 194px;
 }
-.post-author img.name-checkmark {
-    content: url(https://github.com/thejenja/ovkdarkfix/blob/main/res/4.png?raw=true);
-}
+.post-author img.name-checkmark {content: url(https://github.com/thejenja/ovkdarkfix/blob/main/res/4.png?raw=true);}
+img.name-checkmark {content: url(https://github.com/thejenja/ovkdarkfix/blob/main/res/3.png?raw=true);}
