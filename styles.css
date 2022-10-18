@@ -165,6 +165,7 @@ img.name-checkmark {content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA
     width: auto;
     height: auto;
     margin-top: 10px;
+    position: sticky;
     background-color: #222222 !important;
     border-bottom: 1.5px solid #353535;
 }
@@ -177,4 +178,16 @@ img.name-checkmark {content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAA
 }
 .crp-entry:first-of-type {
     border-top: 0;
+}
+.poll {
+    border: 1px solid #353535;
+}
+span.poll-result-count {
+    color: #eaeaea;
+}
+.poll-result-bar {
+    background-color: #353535;
+}
+.poll-result-bar-sub {
+    background-color: #444444;
 }
