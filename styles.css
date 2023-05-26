@@ -45,7 +45,7 @@ input[type~="search"][name~="query"]:hover {
 	border: 0px;
 }
 .notes_titles small {color: #b1b1b1;}
-.commentsTextFieldWrap {
+.commentsTextFieldWrap, #standaloneCommentBox {
     background-color: #222 !important;
     border: 1px solid #222 !important;
 }
@@ -195,6 +195,8 @@ span.poll-result-count {
     background-color: #222;
 }
 .tippy-box {
+    box-shadow: none !important;
+    border: 1px solid #353535 !important;
     background-color: #333;
     color: #fff;
 }
