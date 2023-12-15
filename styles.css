@@ -5,6 +5,9 @@ body {
     background: #333;
     color: #eaeaea;
 }
+html {
+    color-scheme: dark !important;
+}
 .header_search_input {
     border: 1px solid #202020;
     background: #333 url('/assets/packages/static/openvk/img/search_icon.png') no-repeat;
@@ -219,8 +222,43 @@ span.poll-result-count {
 .searchList li:hover {
     background: #333;
 }
-#searchInput.sr{
+.link #searchInput.sr, .link.nodivider #searchInput.sr{
+    top: -1px;
+}
+.nodivider #searchInput.sr{
     left: 70px;
     top: -13px;
-    width: 470px !important;
+}
+.audioEntry:hover, .searchList a:hover, .attachAudio:hover, .ntSelect:hover {
+    color: #bbb;
+    background: #444343;
+}
+.friendsAudiosList .elem:hover {
+    background: none;
+}
+.bigPlayer {
+    background-color: #222222;
+    border-bottom: 1px solid #4a4a4a;
+}
+.bigPlayer .paddingLayer .bigPlayerTip {
+    background: #353535;
+}
+.searchList li, .searchList a, .searchList:hover a, .friendsAudiosList .elem .additionalInfo .name, .articleView_author > div > span > a{
+    color: #bbb !important;
+}
+.searchList hr, .searchOptions.newer, hr, #upload_container h4{
+    border-color: #404040 !important;
+}
+.articleView {
+    background-color: #232323;
+}
+#upload_container, #audio_upload {
+    background: transparent;
+    border: 0;
+}
+.ovk-diag-body .searchBox{
+    background-color: transparent;
+}
+.minilink .counter {
+    background-color: #333;
 }
